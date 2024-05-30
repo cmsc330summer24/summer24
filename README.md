@@ -4,5 +4,5 @@
   + [Project 0](https://classroom.github.com/a/nLYUNgDN) ([README](https://github.com/cmsc330summer24/summer24/blob/main/projects/project0.md))
     
 ## Discussion links
-  + None
+  + [Discussion 1]() ([README]())
 
