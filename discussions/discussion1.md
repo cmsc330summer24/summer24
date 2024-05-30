@@ -11,7 +11,7 @@ Python is also object-oriented (like C and Java), so during this discussion we w
 - see how to instantiate and work with classes through the Roster.py practice file
 
 > [!NOTE]
-> **You are not expected to complete all of this. In order to get full credit for this discussion you must complete... However, this full discussion is great extra practice, which is why we included the entire thing. Please look at it on your own time to get familiar with the language!**
+> **You are not expected to complete all of this. In order to get full credit for this discussion you must complete isPalindrome, nthmax, freq, zipDict, dictToArray, and your choice of either the Roster class or maxFuncChain. However, this full discussion is great extra practice, which is why we included the entire thing. Please look at it on your own time to get familiar with the language!**
 
 
 ## Basics Practice
@@ -54,27 +54,27 @@ This file contains a total of 6 functions to practice with. The first three are 
   freq("ssabcd") == "s"
   freq("a12xxxxxyyyxyxyxy") == "x"
 
-#### `zipHash(arr1, arr2)`
+#### `zipDict(arr1, arr2)`
 - **Description**: Returns a dict that maps corresponding elements in `arr1` and `arr2`, i.e., `arr1[i]` maps to `arr2[i]`, for all i. If the two arrays are not the same length, return `None`.
 - **Type**: `(Array, Array) -> Dict or None`
 - **Examples**:
   ```py
-  zipHash([], []) == {}
-  zipHash([1], [2]) == {1: 2}
-  zipHash([1, 5], [2, 4]) == {1: 2, 5: 4}
-  zipHash([1], [2, 3]) == None
-  zipHash(["Mamat", "Hicks", "Vinnie"], ["prof", "prof", "TA"]) == {"Mamat": "prof", "Hicks": "prof", "Vinnie": "TA"}
+  zipDict([], []) == {}
+  zipDict([1], [2]) == {1: 2}
+  zipDict([1, 5], [2, 4]) == {1: 2, 5: 4}
+  zipDict([1], [2, 3]) == None
+  zipDict(["Clyff", "Mamat", "Arwen"], ["prof", "prof", "TA"]) == {"Clyff": "prof", "Mamat": "prof", "Arwen": "TA"}
   ```
 
-#### `hashToArray(hash)`
-- **Description**: Returns an array of arrays; each element of the returned array is a two-element array, where the first item is a key from the hash and the second item is its corresponding value. The entries in the returned array must be in the same order as they appear in `hash.keys`.
-- **Type**: `(Hash) -> Array`
+#### `dictToArray(dic)`
+- **Description**: Returns an array of arrays; each element of the returned array is a two-element array, where the first item is a key from the dictionary and the second item is its corresponding value. The entries in the returned array must be in the same order as they appear in `dic.keys()`.
+- **Type**: `(Dict) -> Array`
 - **Examples**:
   ```py
-  hashToArray({}) == []
-  hashToArray({"a": "b"}) == [["a", "b"]]
-  hashToArray({"a": "b", 1: 2}) == [["a", "b"], [1, 2]]
-  hashToArray({"x": "v", "y": "w", "z": "u"}) == [["x", "v"], ["y", "w"], ["z", "u"]]
+  dictToArray({}) == []
+  dictToArray({"a": "b"}) == [["a", "b"]]
+  dictToArray({"a": "b", 1: 2}) == [["a", "b"], [1, 2]]
+  dictToArray({"x": "v", "y": "w", "z": "u"}) == [["x", "v"], ["y", "w"], ["z", "u"]]
   ```
 
 #### `maxFuncChain(init, myfuncs)`
@@ -142,7 +142,7 @@ need them. All classes should be written in `roster.py`
 - **Type**: `(String, Integer)-> self`
 - **Examples**:
   ```py
-  Person('Cliff',84)
+  Person('Kliff',84)
   ```
 
 #### `get_age`
@@ -150,8 +150,8 @@ need them. All classes should be written in `roster.py`
 - **Type**: `None-> Integer`
 - **Examples**:
   ```py
-  clyff = Person('Cliff', 84)
-  clyff.get_age() == 84
+  kliff = Person('Kliff', 84)
+  kliff.get_age() == 84
   ```
 
 #### `set_age(x)`
@@ -160,9 +160,9 @@ is valid. Returns `self`
 - **Type**: `Integer -> self`
 - **Examples**:
   ```py
-  clyff = Person('Cliff', 84)
-  clyff.set_age(42)
-  clyff.get_age() == 42
+  klyff = Person('Klyff', 84)
+  klyff.set_age(42)
+  klyff.get_age() == 42
   ```
 
 ## Student
@@ -280,8 +280,6 @@ return None.
   roster.add(cliff)
   cliff == roster.get_person('Cliff')
   ```
-
-
 ## Testing
 
 You should be able to run `python3 -m pytest` in the discussion1 directory and `pytest` will figure the rest out.
