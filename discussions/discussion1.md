@@ -11,7 +11,7 @@ Python is also object-oriented (like C and Java), so during this discussion we w
 - see how to instantiate and work with classes through the Roster.py practice file
 
 > [!NOTE]
-> **You are not expected to complete all of this. In order to get full credit for this discussion you must complete isPalindrome, nthmax, freq, zipDict, dictToArray, and your choice of either the Roster class or maxFuncChain. However, this full discussion is great extra practice, which is why we included the entire thing. Please look at it on your own time to get familiar with the language!**
+> **You are not expected to complete all of this. In order to get full credit for this discussion you must complete the first 5 functions in basics (isPalindrome, nthmax, freq, zipDict, dictToArray), and your choice of EITHER the Roster class or maxFuncChain (On Gradescope, you will see a score out of 120. We are only grading up to 100). However, this full discussion is great extra practice, which is why we included the entire thing. Please look at it on your own time to get familiar with the language!**
 
 
 ## Basics Practice
