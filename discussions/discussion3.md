@@ -52,8 +52,6 @@ class Fsm:
 ```
  We will define as a 3-tuple list. Each transition is a 3-tuple (src, action, dest) that maps a start state (src) and an action to exactly one destination state (dest). This means that that each edge in the FSM will correspond to a single transition in the list of transitions. This will make the syntax for defining FSMs cleaner and allow for a one-to-one mapping between elements of the transition list and edges in the FSM graph.
 
-src and dest should be ints.
-
 `make(file)`
 
 Given a text file, create an FSM that will represent the series of actions of a Pokemon during a Pokemon battle. The text file will be formatted as follows:
