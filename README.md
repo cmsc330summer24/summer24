@@ -6,4 +6,5 @@
 ## Discussion links
   + [Discussion 1](https://classroom.github.com/a/iNHoqj9_) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion1.md))
   + [Discussion 2](https://classroom.github.com/a/EdI4882c) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion2.md))
+  + [Discussion 3](https://classroom.github.com/a/msAb8dZC) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion3.md))
 
