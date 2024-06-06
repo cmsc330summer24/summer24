@@ -13,7 +13,7 @@
 2. Create an FSM that represents the regex written above.
 
 3. Given the following FSM, which strings are accepted?
-![alt text](image.png)alt text
+![alt text](image.png)
     - "aabc"
     - "acccccc"
     - "bbacc"
