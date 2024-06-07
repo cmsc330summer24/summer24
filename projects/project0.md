@@ -100,7 +100,7 @@ These instructions assume you have a Debian-based system (e.g. Ubuntu).  If you 
 
 ### Windows
 
-*This will only work on Windows 10 and newer.  If you are on an older version, you will probably need to set up a Linux VM.*
+*This will only work on Windows 10 and newer.  If you are on an older version, you will probably need to set up a Linux VM.* **All instructions must be executed within WSL, NOT in powershell**
 
 1. Follow the directions [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install the Windows Subsystem for Linux
 2. Install the basic dependencies:
