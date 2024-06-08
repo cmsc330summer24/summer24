@@ -192,11 +192,11 @@ Here are the functions you must implement:
 
 #### `def concat(nfa1, nfa2):`
 **Type**: `nfa_t -> nfa_t -> nfa_t`
--  **Description**: Takes in two nfa's and returns a new nfa which is the union of the two nfa arguments.
+-  **Description**: Takes in two nfa's and returns a new nfa which is the concatenation of the two nfa arguments.
 
 #### `def union(nfa1, nfa2):`
 **Type**: `nfa_t -> nfa_t -> nfa_t`
--  **Description**: Takes in two nfa's and returns a new nfa which is the concatenation of the two nfa arguments.
+-  **Description**: Takes in two nfa's and returns a new nfa which is the union of the two nfa arguments.
 
 #### `def star(nfa):`
   **Type**: `nfa_t -> nfa_t`
