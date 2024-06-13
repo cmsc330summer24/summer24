@@ -1,7 +1,7 @@
 # Discussion 5 Basic Ocaml
 
 ## Reminders
-1. Project 1 due Sunday, June 18th 11:59PM
+1. Project 1 due Tuesday, June 18th 11:59PM
 2. Exam next Thursday!!!
 
 # Ocaml
