@@ -9,4 +9,4 @@
   + [Discussion 2](https://classroom.github.com/a/EdI4882c) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion2.md))
   + [Discussion 3](https://classroom.github.com/a/msAb8dZC) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion3.md))
   + Discussion 4 (No submission) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion4.md))
-  + Discussion 5  ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion5))
+  + [Discussion 5](https://classroom.github.com/a/aJVc_hW0) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion5.md))
