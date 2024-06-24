@@ -18,7 +18,7 @@ To begin this project, you will need to commit any uncommitted changes to your l
 
 This is NOT a pair project. You must work on this project alone as with most other CS projects. See the [Academic Integrity](#academic-integrity) section for more information. 
 
-You may not import anything other than the `re` module.
+You may not import anything other than the `re` and `functools` module.
 
 ### Testing
 There are three ways to test your project and one order for these tests. First, test locally using the provided public tests. Second, submit to gradescope to see whether you're passing or failing the semipublics. Third, write student tests to best predict what you think our secret tests are.
