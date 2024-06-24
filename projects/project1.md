@@ -170,11 +170,11 @@ Remember that every DFA is also an NFA, but the reverse is not true. The subset 
 - **Description**: This function takes as input an NFA(`nfa`) and converts it to an equivalent DFA. The language recognized by an NFA is invariant under `nfa_to_dfa`. In other words, for all NFAs `nfa` and for all strings `s`, `accept nfa s = accept (nfa_to_dfa nfa) s`.
 
 ## Part 2: Regular Expressions
-For the last part of the project, you will implement code which builds an NFA from a regular expression. The `Regexp` module represents a regular expression with the type `regexp_t`:
+For the last part of the project, you will implement code which builds an NFA from a regular expression. The `re` module is a python module that implements regular expressions. We will mimic this behavior using the following functions and ideas:
 
 This datatype represents regular expressions as follows:
 
--  `Empty_String` represents the regular expression recognizing the empty string (not the empty set!). Written as a formal regular expression, this would be `epsilon`.
+-  `Empty_String` represents the regular expression recognizing the empty string (not the empty set!). Written as a formal regular expression, this would be `epsilon` (or `None` in python).
 
 -  `Char c` represents the regular expression that accepts the single character c. Written as a formal regular expression, this would be `c`.
 
@@ -187,19 +187,19 @@ This datatype represents regular expressions as follows:
 Here are the functions you must implement:
 
 #### `def char(string):` 
-**Type**: `String -> nfa_t`
--  **Description**: Takes in a string and returns an nfa which describes the transition associated with the string.
+**Type**: `String -> fsm`
+-  **Description**: Takes in a string if size 1 or size 0 (for empty string) and returns an nfa which describes the transition associated with the string.
 
 #### `def concat(nfa1, nfa2):`
-**Type**: `nfa_t -> nfa_t -> nfa_t`
--  **Description**: Takes in two nfa's and returns a new nfa which is the union of the two nfa arguments.
-
-#### `def union(nfa1, nfa2):`
-**Type**: `nfa_t -> nfa_t -> nfa_t`
+**Type**: `fsm -> fsm -> fsm`
 -  **Description**: Takes in two nfa's and returns a new nfa which is the concatenation of the two nfa arguments.
 
+#### `def union(nfa1, nfa2):`
+**Type**: `fsm -> fsm -> fsm`
+-  **Description**: Takes in two nfa's and returns a new nfa which is the union of the two nfa arguments.
+
 #### `def star(nfa):`
-  **Type**: `nfa_t -> nfa_t`
+  **Type**: `fsm -> fsm`
 -  **Description**: Takes in an nfa and returns a new nfa which has the kleene closure applied to it.
 
 [list doc]: https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html
