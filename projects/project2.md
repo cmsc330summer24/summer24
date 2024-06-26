@@ -32,7 +32,7 @@ You cannot use any imperative features.
 This includes things like references, mutable records, and arrays. 
 Functions given in lecture/discussion will probably need to be modified for this project. 
 
-In addition, you may ***only*** use the `Re` and `String` modules. `stdlib` functions like cons(`::`) and `^` are allowed, but `stdlib` modules like `List` are not allowed with the exception of `List.map`, `List.fold_left`, and `List.fold_right`.
+In addition, you may ***only*** use the `Re` and `String` modules. `stdlib` functions like cons(`::`), `@`, and `^` are allowed, but `stdlib` modules like `List` are not allowed with the exception of `List.map`, `List.fold_left`, and `List.fold_right`.
 No other modules will be allowed. 
 
 ### Testing & Submitting
