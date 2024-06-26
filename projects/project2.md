@@ -280,7 +280,7 @@ For example, if we wanted to evaluate "let x = 3 in x + 1", then we probably wan
 In this case, we would want to call `eval [("x",Some(3)] "x + 1"`.
 Consider how this would change for our project.
 
-To make things simpler, you can assume that any intial call to `reduce`, `eager` and `laze` will always include the empty environment.
+To make things simpler, you can assume that any intial call to `reduce` will always include the empty environment.
 
 #### `isalpha`
 - **Type:** `lambda_ast -> lambda_ast -> bool` 
