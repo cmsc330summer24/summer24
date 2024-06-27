@@ -1,4 +1,4 @@
-# Discussion 6 Lexer, Parser, Evaluator for ANON
+# Discussion 9 Lexer, Parser, Evaluator for ANON
 
 ## Reminders
 * Project 2 is out and is due July 5th
