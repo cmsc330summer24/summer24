@@ -80,7 +80,7 @@ Lexical Representation | Token Name
 `.` | `Lambda_Dot`
 `[a-z]` | `Lambda_Var`
 `L` | `Lambda_Lambda`
-`end of string` | `Lambda_EOF`
+`end of string ("")` | `Lambda_EOF`
 `_` | `raise (Failure "tokenizing failed")`
 
 #### `lex_engl`
