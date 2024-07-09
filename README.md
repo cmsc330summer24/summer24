@@ -16,4 +16,4 @@
   + Discussion 8 (No submission) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion8.md))
   + [Discussion 9](https://classroom.github.com/a/8hrno1XZ) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion9.md))
   + [Discussion 10](https://classroom.github.com/a/Ov1-JPGN) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion10.md))
-  + [Discussion 11]() ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion11.md))
+  + [Discussion 11](https://classroom.github.com/a/60RI5gh_) (No submission) ([README](https://github.com/cmsc330summer24/summer24/blob/main/discussions/discussion11.md))
