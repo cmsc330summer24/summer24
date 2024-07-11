@@ -137,5 +137,5 @@ Suppose we have the following layout for the stack and heap:
 ![](mark_sweep.png)
 
 1. Indicate the freed segments of memory after one pass of Mark & Sweep.
-2. Remove the variable `x3` from the stack. What does the diagram look like now?
-3. Remove the variables `x2` and `x1`, but keep `x3` in the stack. What does the diagram look like now?
+2. Remove the variable `x4` from the stack. What does the diagram look like now?
+3. Remove the variables `x3` and `x2`, but keep `x1` in the stack. What does the diagram look like now?
