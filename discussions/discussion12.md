@@ -123,7 +123,7 @@ Given the following memory diagrams, complete the exercises:
 
 Consider the following stack + heap layout:
 
-![](./imgs/ref_count.png)
+![](ref_count.png)
 
 
 1. What would a reference counter diagram look like for this problem?
@@ -134,7 +134,7 @@ Consider the following stack + heap layout:
 
 Suppose we have the following layout for the stack and heap:
 
-![](./imgs/mark_sweep.png)
+![](mark_sweep.png)
 
 1. Indicate the freed segments of memory after one pass of Mark & Sweep.
 2. Remove the variable `x3` from the stack. What does the diagram look like now?
